@@ -1,11 +1,18 @@
 {
+  "name": "task-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.11.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.0.14",
+    "@types/node": "^24.0.15",
     "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
