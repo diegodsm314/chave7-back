@@ -1,4 +1,4 @@
-# Chave7 Back-end
+# Gerenciador de Tarefas - Chave7 Back-end
 
 Este repositório contém os códigos do back-end do projeto Chave7.
 
@@ -6,7 +6,6 @@ Este repositório contém os códigos do back-end do projeto Chave7.
 
 - [Node.js](https://nodejs.org/) (versão recomendada: 18.x ou superior)
 - [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
-- Banco de dados configurado (verifique `.env.example`)
 
 ## Instalação
 
@@ -46,3 +45,7 @@ npx jest
 
 - `src/` — Código-fonte principal
 - `src/__test__/` — Testes automatizados
+
+## Observações
+### Frontend
+- Esse aplicativo funciona em conjunto ao repositorio chave7-front <https://github.com/diegodsm314/chave7-front>

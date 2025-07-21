@@ -42,5 +42,13 @@ export const typeDefs = gql`
     email: String
   }
 
+  input TaskInput {
+    title: String!
+    description: String
+    category: String!
+    endDate: String!
+    user: UserInput!
+  }
+
   
 `;
